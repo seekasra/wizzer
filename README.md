@@ -7,7 +7,7 @@ The need for this module began to develope when there was such need for
 Intent-Based Networking (IBN). Where the user would express their intention and
 expect the system to translate and trigger setup automatically.
 ### How to use?
-You can make the file usable as a script as well as an importable module
+You can make the file usable as a script as well as an importable module. See example1.py
 ### Screenshots
 ---
 ### credits
