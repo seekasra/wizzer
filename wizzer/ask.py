@@ -1,5 +1,10 @@
 #module file: ask.py
 
+"""This module receives an array, dictionary or a string of
+configuration variable(s). Converts it to dictionary if not and prompts user to
+provide values for each parameter by printing the questions and reading the
+answers given by the user."""
+
 from . import prepare
 
 def ask(questions):

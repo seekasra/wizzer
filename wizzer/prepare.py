@@ -1,5 +1,8 @@
 #module file: prepare.py
 
+"""This module receives an array, dictionary or a string of
+configuration variable(s). Converts it to dictionary if returns."""
+
 def prepare(lst):
     if isinstance(lst, list):
         res_dct = {lst[i]: '' for i in range(0, len(lst))}

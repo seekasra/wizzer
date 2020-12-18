@@ -1,3 +1,5 @@
+"""example file"""
+
 import wizzer 
 
 q1 = [
