@@ -1,6 +1,6 @@
 """example file"""
 
-from wizzer import *
+from wizzer import ask, review
 
 q1 = [
         'hostname',
