@@ -1,9 +1,7 @@
 # wizzer
 ![wizzer logo](https://raw.githubusercontent.com/seekasra/wizzer/main/cover.png)
 
-[<img style="float: left; margin: 0px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master)
-
-[<img style="float: left;" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)
+[<img style="float: left; margin: 0px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master) [<img style="float: left;" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)
 <br/>
 
 ### What's wizzer?
