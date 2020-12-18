@@ -1,6 +1,6 @@
 
 # wizzer
-![wizzer logo](https://github.com/seekasra/wizer/blob/main/assets/cover.png)
+![wizzer logo](https://github.com/seekasra/wizer/blob/main/cover.png)
 [![GitHub last commit](https://img.shields.io/github/last-commit/seekasra/wizzer.svg)](https://github.com/seekasra/wizzer/commits/master)
 [![GitHub](https://img.shields.io/github/license/seekasra/wizzer.svg)](https://github.com/seekasra/wizzer/blob/master/LICENSE)
 ### What's wizzer?
