@@ -1,7 +1,7 @@
 ![wizer logo](https://github.com/seekasra/wizer/blob/main/cover.png)
 
 ### What's wizzer?
-wizer is a Python module to help programmers initialise their domain specific
+wizzer is a Python module to help programmers initialise their domain specific
 variable(s)/configuration(s) using a wizard-like question answer chat scenario.
 The need for this module began to develope when there was such need for
 Intent-Based Networking (IBN). Where the user would express their intention and
