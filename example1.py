@@ -1,6 +1,6 @@
 """example file"""
 
-import wizzer 
+from wizzer import *
 
 q1 = [
         'hostname',
@@ -18,6 +18,5 @@ q2 = {
         'Routing protocol': '',
 }
 
-q = wizzer.ask(q1)
-wizzer.review(q)
-
+q = ask(q1)
+review(q)
