@@ -11,4 +11,4 @@ You can make the file usable as a script as well as an importable module
 ### Screenshots:
 ---
 credits: 
-icon : ![Anatoly Dudko](https://thenounproject.com/tolyachudes/)
+icon in wizzer logo : [Anatoly Dudko](https://thenounproject.com/tolyachudes/)
