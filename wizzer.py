@@ -1,4 +1,4 @@
-#module file: wizer.py
+#module file: wizzer.py
 
 def ask(questions):
     questions = prepare(questions)
@@ -22,6 +22,6 @@ def prepare(lst):
     return res_dct 
 
 
-name = "wizer.py"
-description = "wizer.py is a Wizard question answer creator for seting up variables/configurations " 
+name = "wizzer.py"
+description = "A Q&A wizard builder for setting up parameters [e.g. variable(s)/configuration(s)] to run a service." 
 
