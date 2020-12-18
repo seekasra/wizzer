@@ -1,6 +1,6 @@
 ![wizer logo](https://github.com/seekasra/wizer/blob/main/banner.png)
 
-### What's wizer?
+### What's wizzer?
 wizer is a Python module to help programmers initialise their domain specific
 variable(s)/configuration(s) using a wizard-like question answer chat scenario.
 The need for this module began to develope when there was such need for
