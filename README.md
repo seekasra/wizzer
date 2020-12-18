@@ -8,7 +8,7 @@ Intent-Based Networking (IBN). Where the user would express their intention and
 expect the system to translate and trigger setup automatically.
 ### How to use?
 You can make the file usable as a script as well as an importable module
-### Screenshots:
+### Screenshots
 ---
-credits: 
+### credits
 icon in wizzer logo : [Anatoly Dudko](https://thenounproject.com/tolyachudes/)
