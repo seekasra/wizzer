@@ -1,4 +1,4 @@
-![wizer logo](https://github.com/seekasra/wizer/blob/main/cover.png)
+![wizer logo](https://github.com/seekasra/wizer/blob/main/assets/cover.png)
 
 ### What's wizzer?
 wizzer is a Python module to help programmers initialise their domain specific
