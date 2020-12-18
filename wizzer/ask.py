@@ -1,14 +1,12 @@
 #module file: ask.py
+
 from . import prepare
 
 def ask(questions):
-    questions = prepare(questions)
-    for q, a in questions.items():
+    prepared_q = prepare(questions)
+    for q, a in prepared_q.items():
         a = input("What's the " + str(q) + " ?  ")
-        questions[q] = a
-    return questions
+        prepared_q[q] = a
+    return prepared_q
 
-
-name = "wizer.py"
-description = "wizer.py is a Wizard question answer creator for seting up variables/configurations " 
 
