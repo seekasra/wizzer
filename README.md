@@ -1,4 +1,7 @@
-![wizer logo](https://github.com/seekasra/wizer/blob/main/assets/cover.png)
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/seekasra/wizzer.svg)](https://github.com/seekasra/wizzer/commits/master)
+[![GitHub](https://img.shields.io/github/license/seekasra/wizzer.svg)](https://github.com/seekasra/wizzer/blob/master/LICENSE)
+![wizzer logo](https://github.com/seekasra/wizer/blob/main/assets/cover.png)
 
 ### What's wizzer?
 wizzer is a Python module to help programmers initialise their domain specific
