@@ -21,7 +21,7 @@ expect the system to translate and trigger setup automatically.
 import wizzer
 ```
 
-2. have your questions (configuration parameters) ready. accepted formats are arrays, dictionaries or a single string.
+2. have your questions (configuration parameters) ready. accepted formats are arrays, dictionaries or a single string. You can also pass the questions to "convert module" to get back a ready to use dictionary. 
 
     - Here we have an array forexample:
 
