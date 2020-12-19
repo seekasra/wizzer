@@ -1,27 +1,29 @@
-# wizzer
 ![wizzer logo](https://raw.githubusercontent.com/seekasra/wizzer/main/cover.png)
-
-[<img style="float: left; margin: 0px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master)
-
-[<img style="float: left;" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)
+[<img style="float: left; margin: 10px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master) [<img style="float: left; margin: 10px 10px 0px 0px" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)
 <br/>
-
+# wizzer
+#### [What's wizzer?](#whats-wizzer)
+#### [How to use?](#how-to-use)
+#### [Credits](#credits)
+---
 ### What's wizzer?
 wizzer is a Python module to help programmers initialise their domain specific
 variable(s)/configuration(s) using a wizard-like question answer chat scenario.
 The need for this module began to develope when there was such need for
 Intent-Based Networking (IBN). Where the user would express their intention and
 expect the system to translate and trigger setup automatically.
+
 ### How to use?
-1 - import _wizzer_ package.
+1. import _wizzer_ package.
 
 
 ```python
 import wizzer
 ```
 
-2 - have your questions (configuration parameters) ready. accepted formats are arrays, dictionaries or a single string.
-<br/> 2.1 - Here we have an array forexample:
+2. have your questions (configuration parameters) ready. accepted formats are arrays, dictionaries or a single string.
+
+    - Here we have an array forexample:
 
 
 ```python
@@ -34,7 +36,7 @@ q1 = [
 ]
 ```
 
-2.1.1 - Now you can ask above attributes from the user. This will return a new dictinary with all answers filled-in as corresponding values.
+   - Now you can ask above attributes from the user. This will return a new dictinary with all answers filled-in as corresponding values.
 
 
 ```python
@@ -48,7 +50,7 @@ q = wizzer.ask(q1)
     What's the port ?  8181
 
 
-2.1.2 - You can review the configurations by running:
+ - You can review the configurations by running:
 
 
 ```python
@@ -62,7 +64,7 @@ wizzer.review(q)
     port :  8181
 
 
-2.2 - Here we have a dictionary forexample:
+3. Here we have a dictionary forexample:
 
 
 ```python
@@ -75,7 +77,7 @@ q2 = {
 }
 ```
 
-2.2.1 - Now you can ask above attributes from the user. This will return a new dictinary with all answers filled-in as corresponding values.
+- Now you can ask above attributes from the user. This will return a new dictinary with all answers filled-in as corresponding values.
 
 
 ```python
@@ -89,7 +91,7 @@ q = wizzer.ask(q2)
     What's the port ?  8181
 
 
-2.2.2 - You can review the configurations by running:
+- You can review the configurations by running:
 
 
 ```python
@@ -106,3 +108,8 @@ wizzer.review(q2)
 ---
 ### credits
 Icon in the wizzer logo by [Anatoly Dudko](https://thenounproject.com/tolyachudes/)
+
+
+```python
+
+```
