@@ -4,3 +4,6 @@ __pycache__/
 # Distribution / Packaging
 *.pyc
 *.pyo
+
+#jupyter notebooks
+*.ipynb
