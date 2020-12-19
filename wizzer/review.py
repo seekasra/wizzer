@@ -4,9 +4,9 @@
 configuration variable(s). Converts it to dictionary if not and showes
 key/value pairs by printing them out."""
 
-from . import prepare
+from . import convert
 
 def review(questions):
-    prepared_q = prepare(questions)
-    for q, a in prepared_q.items():
+    dict_q = convert(questions)
+    for q, a in dict_q.items():
         print(str(q) + " :  " + str(a))

@@ -1,7 +1,9 @@
 # wizzer
 ![wizzer logo](https://raw.githubusercontent.com/seekasra/wizzer/main/cover.png)
 
-[<img style="float: left; margin: 0px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master) [<img style="float: left;" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)
+[<img style="float: left; margin: 0px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master)
+
+[<img style="float: left;" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)
 <br/>
 
 ### What's wizzer?
@@ -83,6 +85,22 @@ q = wizzer.ask(q2)
     What's the driver ?  iosxr
     What's the hostname ?  ios-xe-mgmt.cisco.com
     What's the username ?  developer
+    What's the password ?  C1sco12345
+    What's the port ?  8181
+
+
+2.2.2 - You can review the configurations by running:
+
+
+```python
+wizzer.review(q2)
+```
+
+    driver :  iosxr
+    hostname :  ios-xe-mgmt.cisco.com
+    username :  developer
+    password :  C1sco12345
+    port :  8181
 
 
 ---
