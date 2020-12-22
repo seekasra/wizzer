@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-#module file: Wizzer.py
-""" module Wizzer """
+#module file: wizzer.py
+""" module wizzer """
 
 class Wizzer:
     """This module receives an array, dictionary or a string of
