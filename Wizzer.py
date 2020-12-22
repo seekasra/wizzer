@@ -8,15 +8,15 @@ answers given by the user."""
 class Wizzer:
     def ask(self, questions):
         dict_q = self._convert(questions)
-        for q, a in dict_q.items():
-            a = input("What's the " + str(q) + " ?  ")
-            dict_q[q] = a
+        for question, answer in dict_q.items():
+            answer = input("What's the " + str(question) + " ?  ")
+            dict_q[question] = answer
         return dict_q
 
     def review(self, questions):
         dict_q = self._convert(questions)
-        for q, a in dict_q.items():
-            print(str(q) + " :  " + str(a))
+        for question, answer in dict_q.items():
+            print(str(question) + " :  " + str(answer))
 
     def _convert(self, lst):
         if isinstance(lst, list):
