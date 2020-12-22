@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """example file"""
 
-from wizzer import Wizzer
+import wizzer 
 
 q1 = [
         'hostname',
@@ -19,8 +19,6 @@ q2 = {
         'Routing protocol': '',
 }
 
-wizzer = Wizzer()
 questions = wizzer.ask(q1)
 wizzer.review(questions)
 
-print(Wizzer.__doc__)
