@@ -19,5 +19,5 @@ q2 = {
 }
 
 wizzer = Wizzer()
-q = wizzer.ask(q1)
-wizzer.review(q)
+questions = wizzer.ask(q1)
+wizzer.review(questions)
