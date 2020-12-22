@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """example file"""
 
 from wizzer import Wizzer
@@ -21,3 +22,5 @@ q2 = {
 wizzer = Wizzer()
 questions = wizzer.ask(q1)
 wizzer.review(questions)
+
+print(Wizzer.__doc__)

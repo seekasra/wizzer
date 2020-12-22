@@ -1,4 +1,7 @@
+# -*- coding: utf-8 -*-
 #module file: Wizzer.py
+""" module Wizzer """
+
 class Wizzer:
     """This module receives an array, dictionary or a string of
     configuration variable(s). Converts it to dictionary if not and prompts user to
