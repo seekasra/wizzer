@@ -10,7 +10,7 @@ class Wizzer:
 
     def ask(self, questions):
         """ asking configuration variables from the user """
-        dict_q = self.convert(questions)
+        dict_q = convert(questions)
         for question, answer in dict_q.items():
             answer = input("What's the " + str(question) + " ?  ")
             dict_q[question] = answer
@@ -18,17 +18,18 @@ class Wizzer:
 
     def review(self, questions):
         """ previewing configuration variables from the user """
-        dict_q = self.convert(questions)
+        dict_q = convert(questions)
         for question, answer in dict_q.items():
             print(str(question) + " :  " + str(answer))
 
-    def convert(self, lst):
-        """ converting configuration variables from array and string to
-        dictionary """
-        if isinstance(lst, list):
-            res_dct = {lst[i]: '' for i in range(0, len(lst))}
-        elif isinstance(lst, str):
-            res_dct = {lst: ''}
-        else:
-            res_dct = lst
-        return res_dct
+
+def convert(lst):
+    """ converting configuration variables from array and string to
+    dictionary """
+    if isinstance(lst, list):
+        res_dct = {lst[i]: '' for i in range(0, len(lst))}
+    elif isinstance(lst, str):
+        res_dct = {lst: ''}
+    else:
+        res_dct = lst
+    return res_dct
