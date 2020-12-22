@@ -1,7 +1,8 @@
-![wizzer logo](https://raw.githubusercontent.com/seekasra/wizzer/main/cover.png)
-[<img style="float: left; margin: 10px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master) [<img style="float: left; margin: 10px 10px 0px 0px" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)
+![wizzer logo](https://raw.githubusercontent.com/seekasra/wizzer/main/cover.png) 
+[<img style="float: left; margin: 10px 10px 0px 0px" src="https://img.shields.io/github/last-commit/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/commits/master) [<img style="float: left; margin: 10px 10px 0px 0px" src="https://img.shields.io/github/license/seekasra/wizzer.svg">](https://github.com/seekasra/wizzer/blob/master/LICENSE)[![stability][0]][1] [![HitCount](http://hits.dwyl.com/seekasra/wizzer.svg)](http://hits.dwyl.com/seekasra/wizzer)
+
 <br/>
-# wizzer
+# wizzer 
 #### [What's wizzer?](#whats-wizzer)
 #### [How to use?](#how-to-use)
 #### [Credits](#credits)
@@ -109,7 +110,5 @@ wizzer.review(q2)
 ### credits
 Icon in the wizzer logo by [Anatoly Dudko](https://thenounproject.com/tolyachudes/)
 
-
-```python
-
-```
+[0]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
+[1]: https://nodejs.org/api/documentation.html#documentation_stability_index
