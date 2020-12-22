@@ -4,7 +4,7 @@ class Wizzer:
     configuration variable(s). Converts it to dictionary if not and prompts user to
     provide values for each parameter by printing the questions and reading the
     answers given by the user."""
-    
+
     def ask(self, questions):
         """ asking configuration variables from the user """
         dict_q = self._convert(questions)
@@ -28,4 +28,4 @@ class Wizzer:
             res_dct = {lst: ''}
         else:
             res_dct = lst
-        return res_dct 
+        return res_dct
