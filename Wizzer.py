@@ -1,11 +1,10 @@
 #module file: Wizzer.py
-
-"""This module receives an array, dictionary or a string of
-configuration variable(s). Converts it to dictionary if not and prompts user to
-provide values for each parameter by printing the questions and reading the
-answers given by the user."""
-
 class Wizzer:
+    """This module receives an array, dictionary or a string of
+    configuration variable(s). Converts it to dictionary if not and prompts user to
+    provide values for each parameter by printing the questions and reading the
+    answers given by the user."""
+    
     def ask(self, questions):
         dict_q = self._convert(questions)
         for question, answer in dict_q.items():
