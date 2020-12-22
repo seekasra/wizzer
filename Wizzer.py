@@ -6,6 +6,7 @@ class Wizzer:
     answers given by the user."""
     
     def ask(self, questions):
+        """ asking configuration variables from the user """
         dict_q = self._convert(questions)
         for question, answer in dict_q.items():
             answer = input("What's the " + str(question) + " ?  ")
@@ -13,11 +14,14 @@ class Wizzer:
         return dict_q
 
     def review(self, questions):
+        """ previewing configuration variables from the user """
         dict_q = self._convert(questions)
         for question, answer in dict_q.items():
             print(str(question) + " :  " + str(answer))
 
     def _convert(self, lst):
+        """ converting configuration variables from array and string to
+        dictionary """
         if isinstance(lst, list):
             res_dct = {lst[i]: '' for i in range(0, len(lst))}
         elif isinstance(lst, str):
