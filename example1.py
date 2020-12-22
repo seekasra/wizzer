@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """example file"""
-
-import wizzer 
+import wizzer
 
 q1 = [
         'hostname',
@@ -21,4 +20,3 @@ q2 = {
 
 questions = wizzer.ask(q1)
 wizzer.review(questions)
-
