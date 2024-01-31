@@ -7,12 +7,15 @@
 #### [How to use?](#how-to-use)
 #### [Credits](#credits)
 ---
+
 ### What's wizzer?
 wizzer is a Python module to help programmers initialise their domain specific
 variable(s)/configuration(s) using a wizard-like question answer chat scenario.
 The need for this module began to develope when there was such need for
 Intent-Based Networking (IBN). Where the user would express their intention and
 expect the system to translate and trigger setup automatically.
+
+** This is a pre-LLM era repository.
 
 ### How to use?
 1. import _wizzer_ package.
